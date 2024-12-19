@@ -1,0 +1,161 @@
+:root {
+    --bg-color:ECEBDE;
+    --header-bg:D7D3BF;
+    --ul-bg:C1BAA1;
+    --msg-bg:ECEBDE;
+    --text-color:black;
+    --btn-bg:#D7D3BF;
+    --hover-bg:A59D84;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-ul{
+   list-style: none;
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap:5px;
+   background-color:var(--header-bg);
+   min-height: 10%;
+}
+
+.header-a {
+    margin:20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: var(--text-color);
+}
+
+.header-a:hover {
+    text-decoration: underline;
+    color:var(--hover-bg)
+}
+.header-a:visited {
+    text-decoration: none;
+}
+
+.main-body,
+.form-body
+{
+    background-color: var(--bg-color);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ul {
+    background-color: var(--ul-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    min-width: 50%;
+    padding:5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.main-container,
+.message-main
+ {
+    background-color: var(--msg-bg);
+    margin:10px;
+    padding:10px;
+    border-radius: 20px;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.main-container > * {
+    margin: 2px;
+}
+
+.open-btn,
+.back-btn
+{
+    align-self: center;
+    text-decoration: none;
+    margin: 10px;
+    background: var(--btn-bg);
+    padding:8px;
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.open-btn:visited,
+.back-btn:visited
+{
+    text-decoration: none;
+    color:black;  
+}
+
+.open-btn:not(:visited){
+    text-decoration: none;
+    color:black;
+}
+
+.open-btn:hover
+{
+    background-color: var(--hover-bg);
+}
+
+.back-btn:hover {
+    background-color: var(--hover-bg);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-h1 {
+    margin:20px;
+    text-align: center;
+}
+
+.form-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    max-width: 70%;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-btn {
+    margin:20px;
+    padding:5px 10px;
+    border-radius: 20px;
+    background-color:var(--btn-bg);
+}
+
+.form-btn:hover{
+    background-color:var(--hover-bg);
+    cursor: pointer;
+};
+
+

@@ -1,0 +1,11 @@
+<header>
+    <ul class="header-ul">
+        <% for (let i=0; i< links.length; i++) { %>
+            <li class="header-li">
+                <a class="header-a" href="<%= links[i].href %>">
+                    <span class="header-span"> <%= links[i].text %></span>
+                </a>
+            </li>
+        <%} %>
+    </ul>
+</header>

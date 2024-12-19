@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>message</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body class="main-body">
+        <%- include('header', {links: links}) %>
+        <div class="main">
+            <div class="message-main">
+                <p> <strong>From:</strong> <span><%= user %> </span></p>
+                <p> <strong>Message:</strong><span><%= text %> </span></p>    
+                <p><strong>Date:</strong>  <span><%= added %> </span></p>
+                <a class="back-btn" href="/">Back</a>
+            </div> 
+        </div>  
+    </body>
+</html>

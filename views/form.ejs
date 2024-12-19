@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>New Message form</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body class="form-body">
+        <%- include('header', {links: links}) %>
+        <div class="form">
+            <h1 class="form-h1">Add A New Message</h1>
+            <form class="form-container" method="POST" action="/new">
+                <label for="name">*username:</label>
+                <input type="text" id="name" name="name">
+                <label for="message">*message:</label>
+                <textarea  type="text" id="message" name="message" rows="4" cols="50"></textarea>
+                <input class="form-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
