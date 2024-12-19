@@ -4,8 +4,8 @@ const { format } = require("date-fns");
 const indexRouter = Router();
 
 const messages = [
-    { text: "Hi there!", user: "Amando", added: format(new Date(), "EEEE, MMMM do, yyyy h:mm a")},
-    { text: "Hello World!", user: "Charles", added: format(new Date(), "EEEE, MMMM do, yyyy h:mm a") }
+    { text: " Bonsoir, Elliot", user: "Tyrell Wellick", added: format(new Date(), "EEEE, MMMM do, yyyy h:mm a")},
+    { text: "I am the one who KNOCKS", user: "Walter White", added: format(new Date(), "EEEE, MMMM do, yyyy h:mm a") }
 ];
 
 const links = [
