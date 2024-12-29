@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": " node db/populate.js"
+    "seed": " node db/populatedb.js"
   },
   "author": "",
   "license": "ISC",
